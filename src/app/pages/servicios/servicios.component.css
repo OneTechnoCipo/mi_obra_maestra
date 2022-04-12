@@ -1,11 +1,12 @@
-.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel { float: center; overflow: center; padding: 100px; width: 100%; position:center; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#67d870; color:rgb(0, 0, 0);}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:20px; background:#a4e6aa; color:rgb(0, 0, 0);}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:center; border-radius:100%;top:calc(50% - 20px); }
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
     .abajotexto {
         color: rgb(75, 240, 97);
     }
+    h1 { font-family: Metrophobic; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Metrophobic; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Metrophobic; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Metrophobic; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Metrophobic; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:rgb(18, 184, 93); }
