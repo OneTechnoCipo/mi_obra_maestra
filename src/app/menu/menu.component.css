@@ -5,18 +5,18 @@
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .darken-grey-text {
-    color: #2E2E2E;
+    color: #005515;
 }
 
 .navbar .dropdown-menu a:hover {
-    color: #616161 !important;
+    color: #244e2b !important;
 }
 .darken-grey-text {
-    color: #2E2E2E;
+    color: #747474;
 }
 
 
 
 .purple.lighten-1 {
-    background-color: #47bc7c!important;
+    background-color: #3eb975!important;
 }
