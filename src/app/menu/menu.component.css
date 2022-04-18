@@ -20,3 +20,9 @@
 .purple.lighten-1 {
     background-color: #47bc7c!important;
 }
+body {
+    height:665px;
+    background-image: url("https://i.pinimg.com/originals/41/43/19/4143198b7fdad51d7b6be3018478ea89.jpg");
+    background-size: 10rem;
+    
+  }

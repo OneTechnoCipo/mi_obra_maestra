@@ -9,3 +9,114 @@
         color: rgb(75, 240, 97);
     }
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:rgb(18, 184, 93); }
+
+
+        .mb-60 {
+            margin-bottom: 60px;
+        }
+        .btn{
+          margin: 20px;
+          font-family: 'Cabin', sans-serif;
+          text-transform:capitalize;
+        }
+        .services-inner {
+            background: #9de6b3;
+            border: 2px solid #819e89;
+            margin-left:5px;
+            transition: .5s;
+        }
+        .our-services-img {
+            float: left;
+            margin-left: -36px;
+            margin-right: 22px;
+            margin-top: 28px;
+        }
+        .our-services-text {
+            padding-right: 20px;
+        }
+        
+        .our-services-text h4 {
+            color: #000000;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            padding-bottom: 10px;
+            position: relative;
+            text-transform: uppercase;
+        }
+        .our-services-text h4::before {
+            background: #00a54596 none repeat scroll 0 0;
+            bottom: 0;
+            content: "";
+            height: 5px;
+            position: absolute;
+            width: 35px;
+        }
+        .our-services-wrapper:hover .services-inner {
+            background: rgb(196, 255, 199) none repeat scroll 0 0;
+            border: 8px solid transparent;
+            box-shadow: 0px 5px 10px 0px rgba(255, 0, 0, 0.2);
+        }
+        .our-services-text p {
+            margin-bottom: 0;
+        }
+        p {
+            font-family: 'Cabin', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgb(190, 190, 190);
+            margin-bottom: 15px;
+        }
+        
+        .our-webcoderskull[_ngcontent-urc-c16] .cnt-block[_ngcontent-urc-c16] {
+            background: #54ca77;
+        }
+        img{
+          margin-top: 1em;
+          margin-bottom: 1em;
+        }
+        
+        .h2, h2 {
+          margin-top: 1em;
+          margin-bottom: 1em;
+            color: rgb(50, 163, 36);
+        }
+        
+        .block {
+          position: relative;
+          background: linear-gradient(80deg, #000, #06381f);
+        }
+        
+        .block:before, .block:after {
+          content: '';
+          position: absolute;
+          left: -2px;
+          top: -2px;
+          background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+            #0000ff, #00ff00,#ffff00, #ff0000);
+          background-size: 800%;
+          width: calc(100% + 4px);
+          height: calc(100% + 4px);
+          z-index: -1;
+          animation: steam 20s linear infinite;
+        }
+        
+        @keyframes steam {
+          0% {
+            background-position: 0 0;
+          }
+          50% {
+            background-position: 400% 0;
+          }
+          100% {
+            background-position: 0 0;
+          }
+        }
+        
+        .block:after {
+          filter: blur(1px);
+        }
+        
+        
