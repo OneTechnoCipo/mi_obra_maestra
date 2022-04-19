@@ -60,11 +60,11 @@ ul{
 .our-webcoderskull .cnt-block{ 
    float:left; 
    width:100%; 
-   background: #68c283;
+   background: #75f59b;
    padding:30px 20px; 
    text-align:center; 
-   border:2px solid #048a4b;
-   margin: 0 0 28px;
+   border:5px solid #05552f;
+   margin: 10 10 78px;
 }
 .our-webcoderskull .cnt-block figure{
    width:148px; 
