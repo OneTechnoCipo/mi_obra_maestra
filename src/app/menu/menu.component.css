@@ -18,7 +18,8 @@
 
 
 .purple.lighten-1 {
-    background-color: #47bc7c!important;
+    
+    background: linear-gradient(80deg,  #53b17d, #06381f)!important;
 }
 body {
     height:665px;

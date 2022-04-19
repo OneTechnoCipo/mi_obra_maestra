@@ -11,7 +11,8 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #53b17d !important;
+    
+    background: linear-gradient(80deg, #53b17d, #06381f) !important;
 }
 #footer h5{
 	padding-left: 10px;
