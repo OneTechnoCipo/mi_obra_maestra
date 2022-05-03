@@ -1,0 +1,128 @@
+h2 {font-family: 'Poppins', sans-serif;
+}
+  .gal-item{
+	overflow: hidden;
+	padding: 8px;
+}
+.gal-item .box{
+	height: 100%;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: auto;
+	object-fit:cover;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.btn{
+  margin: 20px;
+}
+.services-inner {
+    background: #9de6b3;
+    border: 2px solid #819e89;
+    margin-left:5px;
+    transition: .5s;
+}
+.our-services-img {
+    float: left;
+    margin-left: -36px;
+    margin-right: 22px;
+    margin-top: 28px;
+}
+.our-services-text {
+    padding-right: 20px;
+}
+
+.our-services-text h4 {
+    color: #000000;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.our-services-text h4::before {
+    background: #00a54596 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    position: absolute;
+    width: 35px;
+}
+.our-services-wrapper:hover .services-inner {
+    background: rgb(196, 255, 199) none repeat scroll 0 0;
+    border: 8px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(255, 0, 0, 0.2);
+}
+.our-services-text p {
+    margin-bottom: 0;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.our-webcoderskull[_ngcontent-urc-c16] .cnt-block[_ngcontent-urc-c16] {
+    background: #54ca77;
+}
+img{
+  margin-top: 0em;
+  margin-bottom: 3em;
+}
+
+.h2, h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 48px;
+  color: rgb(91, 214, 117);
+}
+
+.block {
+  position: relative;
+  background: radial-gradient(rgb(117, 117, 117), rgb(43, 43, 43), rgb(0, 0, 0));
+
+}
+
+.block:before, .block:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #d5fb00, #0000ff, #00ff00,#ffff00, #ff0000, #04a71f, 
+    #0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 800%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 60s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+h4{
+  color: rgb(30, 138, 30);
+}
+.block:after {
+  filter: blur(5px);
+}
+h2 {
+  text-align: center !important;
+  
+}
+
