@@ -122,6 +122,9 @@ h4{
   filter: blur(5px);
 }
 h2 {
+  
+  
+  text-shadow: 2px 2px 5px rgb(15, 92, 35);
   text-align: center !important;
   
 }

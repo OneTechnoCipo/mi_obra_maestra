@@ -12,7 +12,8 @@ section .section-title {
 }
 #footer {
     
-    background: linear-gradient(80deg, #53b17d, #06381f) !important;
+
+    background: linear-gradient(80deg,  #65d899, #0b6d3c)!important;
 }
 #footer h5{
 	padding-left: 10px;
@@ -22,7 +23,7 @@ section .section-title {
     color:#ffffff;
 }
 #footer a {
-    color: #2c2c2c;
+    color: #000000;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -43,7 +44,7 @@ section .section-title {
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-	color:#333333;
+	color:#292929;
 }
 #footer ul.social li a:hover{
 	color:#eeeeee;
