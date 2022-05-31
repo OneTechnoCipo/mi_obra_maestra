@@ -25,8 +25,227 @@ body {
     color: rgb(255, 255, 255) !important;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: rgb(42, 202, 37);
+  color: rgb(255, 255, 255);
+  text-shadow:#00b445;
 }
 .p{
-  color: rgb(240, 255, 240) !important;
+  color: rgb(217, 255, 222) !important;
 }
+.bannerimg {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    border-radius: 300px;
+}
+.banner{
+margin: 0.67em 0;
+font-size: 120px;
+text-align: center;
+z-index: 2;
+}
+.bannerdiv {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+
+}
+.bannerP{
+  margin: 0.67em 0;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+  color: rgb(73, 192, 133);
+  }
+
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3cff00;
+    background-color: rgb(71, 71, 71);
+    background-clip: padding-box;
+    border: 1px solid #1f8530;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.fa-user,.fa-phone,.fa-globe, .fa-envelope, .fa-comment{
+  color: #3cff00;
+}
+
+.divbuttons{
+  float:left; 
+  
+  background: radial-gradient(  #63eba0, #2b8657)!important;
+  padding:10px 5px; 
+  text-align:center; 
+  border:2px solid #16833a;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 10 10 78px;
+}
+/* FALTA REDONDEAR Y HACER QUE SALGA VERDE TRANSPARENTE AL PONER EL MOUSE */
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+   }
+
+   body {
+     width: 100%;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     background-color: #1c1524;
+   }
+
+   .btn {
+     width: 120px;
+     font-size: 33px;
+     height: 45px;
+     border: none;
+     outline: none;
+     background: rgb(18, 18, 18);
+     cursor: pointer;
+     position: relative;
+     border-radius: 15px;
+     
+   }
+
+   .words {
+     color: #00b445;
+     font-size: 20px;
+     background-image: none;
+     font-weight: bold;
+   }
+
+   .btn:before {
+    content: "";
+    background: linear-gradient(90deg,
+        #06ff76,
+        #00ff20,
+        #04a714,
+        #1ce982,
+        #1de840,
+        #2a723c,
+        #00b445,
+        #1de840,
+        #1de840,
+
+        #06ff76,
+        #00ff20,
+        #04a714,
+        #1ce982,
+        #1de840,
+        #2a723c,
+        #00b445,
+        #1de840,
+        #1de840);
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-size: 200%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(50% + 4px);
+    animation: glowing 12s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+
+   .btn:hover:before {
+     opacity: 1;
+   }
+
+   .btn:hover.btn:after {
+     opacity: 1;
+   }
+
+   .btn:after {
+    content: "";
+    background: linear-gradient(90deg,
+        #1de840,
+        #1de840,
+        #00b445,
+        #2a723c,
+        #1de840,
+        #1ce982,
+        #04a714,
+        #00ff20,
+        #06ff76,
+
+        #1de840,
+        #1de840,
+        #00b445,
+        #2a723c,
+        #1de840,
+        #1ce982,
+        #04a714,
+        #00ff20,
+        #06ff76);
+    position: absolute;
+    top: calc(50% - 2px);
+    left: -1px;
+    background-size: 200%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(50% + 4px);
+    animation: glowing-reverse 12s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+   @keyframes glowing {
+     0% {
+       background-position: 0 0;
+     }
+
+     100% {
+       background-position: 400% 0;
+     }
+   }
+
+   @keyframes glowing-reverse {
+     0% {
+       background-position: 400% 0;
+     }
+
+     100% {
+       background-position: 0 0;
+     }
+   }
+
+

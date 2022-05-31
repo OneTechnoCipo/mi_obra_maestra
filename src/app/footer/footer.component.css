@@ -11,17 +11,19 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #53b17d !important;
+    
+
+    background: linear-gradient(80deg,  #65d899, #0b6d3c)!important;
 }
 #footer h5{
 	padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     color:#ffffff;
 }
 #footer a {
-    color: #2c2c2c;
+    color: #000000;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -42,7 +44,7 @@ section .section-title {
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-	color:#c3ffcb;
+	color:#292929;
 }
 #footer ul.social li a:hover{
 	color:#eeeeee;

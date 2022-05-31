@@ -5,18 +5,31 @@
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .darken-grey-text {
-    color: #005515;
+    color: #2E2E2E;
 }
 
 .navbar .dropdown-menu a:hover {
-    color: #244e2b !important;
+    color: #616161 !important;
 }
 .darken-grey-text {
-    color: #747474;
+    color: #2E2E2E;
 }
-
 
 
 .purple.lighten-1 {
-    background-color: #3eb975!important;
+
+    background: linear-gradient(80deg,  #65d899, #0b6d3c)!important;
 }
+body {
+    height:665px;
+    background-image: url("https://i.pinimg.com/originals/41/43/19/4143198b7fdad51d7b6be3018478ea89.jpg");
+    background-size: 10rem;
+    
+  }
+
+  a{
+    color: #000000!important;
+    text-shadow:  rgb(42, 58, 45);
+  }
+
+  
